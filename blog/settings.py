@@ -34,8 +34,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'tinymce',
 
-    'marketing',
-    'posts'
+    'marketing.apps.MarketingConfig',
+    'posts.apps.PostsConfig',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
